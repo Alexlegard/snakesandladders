@@ -1,0 +1,82 @@
+body {
+	margin:0;
+}
+
+/*Header/main styles*/
+.header {
+	background-color:blue;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:3%;
+	padding-left:3%;
+	display:flex;
+	justify-content:space-between;
+}
+.header__link a {
+	color:#DCDCDC;
+	text-decoration:none;
+	font-size:32pt;
+}
+
+.header__title h1 {
+	text-align:center;
+	font-family: 'Press Start 2P', cursive;
+	color:#DCDCDC;
+	
+}
+
+.main {
+	margin-left:3%;
+	margin-right:3%;
+}
+
+.game {
+	display:flex;
+	justify-content:flex-start;
+}
+
+.left-card {
+	margin-right:1.5%;
+}
+input[type=submit] {
+	width:100px;
+	height:50px;
+	background-color:#ff0000;
+	color:#DCDCDC;
+	border-radius:50%;
+}
+
+.grid-container {
+	width:400px;
+	height:400px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-container > div {
+	border:1px solid black;
+}
+/*
+.square2, .square4, .square6, .square8, .square10,
+.square12, .square14, .square16, .square18, .square20,
+.square22, .square24, .square26, .square28, .square30,
+.square32, .square34, .square36, .square38, .square40,
+.square42, .square44, .square46, .square48, .square50,
+.square52, .square54, .square56, .square58, .square60,
+.square62, .square64, .square66, .square68, .square70,
+.square72, .square74, .square76, .square78, .square80,
+.square82, .square84, .square86, .square88, .square90,
+.square92, .square94, .square96, .square98, .square100 {
+	background-color: #CCC;
+}*/
+/*Right card*/
+.right-card {
+	margin-left:1.5%;
+}
+.scrollbox {
+	border:1px solid black;
+	height:350px;
+	width:200px;
+	overflow:scroll;
+}
